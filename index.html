@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--senha primeira aula: #RumoAoPróximoNível-->
+<html>
+  <head>
+    <title>Jr Pimenta - Top demais - DoWhile 2021</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="avatar">
+          <span>
+            <img src="images/selo.svg" alt="Selo Rocketseat" />
+          </span>
+          <img src="images/eu.jpg" alt="Foto Pessoal" />
+        </div>
+
+        <h1 id="userName">Junior Pimenta</h1>
+        <a
+          href="https://github.com/Jrp1m3n7a"
+          target="_blank"
+        >
+          <img src="images/GITHUB.svg" alt="Ícone GitHub" />
+          JrPimenta</a
+        >
+        <p>Futuro desenvolvedor em formação</p>
+
+        <ul id="socialLinks">
+             <a href="">
+          <li class="youtube">
+            <a 
+            href="https://www.youtube.com/channel/UCtcVKjdz2ps0w3yxDcOK46A" 
+            target="_blank"
+            >
+              <img src="images/YOUTUBE.svg" alt="Logo Youtube" />
+          </li>
+          <li class="instagram">
+            <a 
+            href="https://instagram.com/jun1orp1m3n7a" 
+            target="_blank"
+            >
+              <img src="images/INSTAGRAM.svg" alt="Logo instagram" />
+          </li>
+          <li class="twitter">
+            <a 
+            href="https://twitter.com/juniorpimenta" 
+            target="_blank"
+            >
+              <img src="images/TWITER.svg" alt="Logo twitter" />
+          </li>
+          <li class="facebook">
+            <a
+              href="https://www.facebook.com/junior.pimenta.92"
+              target="_blank"
+            >
+              <img src="images/FACEBOOK.svg" alt="Logo facebook" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <script>
+
+      const links = {
+        github: 'Jrp1m3n7a',
+        youtube: 'UCtcVKjdz2ps0w3yxDcOK46A',
+        facebook: 'junior.pimenta.92',
+        twitter: 'juniorpimenta',
+        instagram: 'jun1orp1m3n7a'
+      }
+
+      function changeSociaMLinks(){
+
+        for(let li of socialLinks.children) {
+ //        const social = li.getAttribute('class')
+          alert(li.children.href)
+        }
+
+      }
+
+  //    changeSociaMLinks()
+
+
+    </script>
+
+  </body>
+</html>
